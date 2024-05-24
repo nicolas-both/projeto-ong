@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.wrapper h1 {
+  font-size: 48px;
+  font-weight:600;
+}
+
+.titulos {
+  text-align: center;
+  margin-top: 50px ;
+}
+
+.titulos h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8E2424;
+}
+
+.institucional {
+  width: 791px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: #667085;
+  font-weight: 400;
+  margin-bottom: 48px;
+}

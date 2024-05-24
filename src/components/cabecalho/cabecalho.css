@@ -1,0 +1,48 @@
+.cabecalho {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1480px;
+  margin-top: 20px
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo a {
+  color: #3A404E;
+  font-weight: 500;
+}
+
+.logo a:hover {
+  color: #000000;
+}
+
+.navegacao {
+  display: flex;
+  gap: 40px;
+}
+
+.navegacao a {
+  color: #667085;
+  font-weight: 500;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.navegacao a:hover {
+  color: #000000;
+}
+
+
+
+
+

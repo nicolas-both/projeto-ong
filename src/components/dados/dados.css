@@ -1,0 +1,22 @@
+.dados {
+  margin: 48px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dados h1 {
+  color: #8E2424;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.dados h2 {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dados p {
+  color: #667085;
+  line-height: 24px;
+}
