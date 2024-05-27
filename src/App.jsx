@@ -1,17 +1,31 @@
-import './App.css'
-import Cabecalho from './components/cabecalho'
-import Institucional from './components/institucional'
-import Dados from './components/dados'
-import Noticias from './components/noticias'
+import React from 'react'
+
+// import * as ReactDOM from "react-dom/client"
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './components/pages/home';
+import Pets from './components/pages/pets'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/pets",
+    element: <Pets />
+  },
+]);
 
 function App() {
 
   return (
     <>
-    <Cabecalho />
-    <Institucional />
-    <Dados />
-    <Noticias />
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
     </>
   )
 }

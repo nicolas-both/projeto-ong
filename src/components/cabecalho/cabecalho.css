@@ -1,6 +1,12 @@
 .cabecalho {
   display: flex;
   justify-content: center;
+  background-color: white;
+  /* margin-bottom: 20px;
+
+  z-index: 1;
+  position: fixed;
+  width: 100%; */
 }
 
 .nav-cabecalho {
